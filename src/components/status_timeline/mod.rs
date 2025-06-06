@@ -4,8 +4,7 @@ mod view;
 
 use crate::PublicAction;
 pub use providers::*;
-pub use reducer::reduce as timeline_reducer;
-pub use reducer::{reduce, Action, State, ViewStore};
+pub use reducer::{Action, State};
 pub use view::{TimelineComponent, TimelineContents};
 
 pub struct TimelineReducer;

@@ -1,7 +1,7 @@
 mod reducer;
 mod view;
 
-pub use reducer::{reduce, Action, PublicAction, State, ViewStore};
+pub use reducer::{Action, PublicAction, State};
 pub use view::MoreViewComponent;
 
 pub struct MoreReducer;

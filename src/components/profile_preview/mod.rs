@@ -1,8 +1,7 @@
 mod reducer;
 mod view;
 
-pub use reducer::reduce as profile_reducer;
-pub use reducer::{ProfileAction, ProfileState, ViewStore};
+pub use reducer::{ProfileAction, ProfileState};
 pub use view::{
     FollowProfileComponent, ListProfileComponent, ProfileComponent, ProfilePageHeader,
     SelectedProfileTab,

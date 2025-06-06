@@ -6,7 +6,7 @@ mod view;
 pub use action::PostAction;
 pub use state::{PostKind, State, Visibility};
 
-pub use reducer::{reduce, ViewStore};
+pub use reducer::ViewStore;
 
 pub use view::PostView;
 

@@ -149,7 +149,7 @@ impl Repository {
             .map_err(|e| format!("UiConfig Data Error: {e:?}"))
             .ok()?;
         *ui_config = config.clone();
-        if let Err(e) = write(UICONFIG_PATH, config.deref()) {
+        if let Err(e) = write(UICONFIG_PATH, config) {
             log::error!("Could not save config: {e:?}");
         }
         None
